@@ -7,9 +7,9 @@ import Contact from '../../components/Contact/Contact'
 const Display = (props) => {
 	return (
 		<Switch>
-			<Route exact path="/" render={(props) => <Main {...props} />} />
-			<Route exact path="/About" render={(props) => <About {...props} />} />
-			<Route exact path="/Contact" render={(props) => <Contact {...props} />} />
+			<Route exact path="/law-office" render={(props) => <Main {...props} />} />
+			<Route exact path="/law-office/About" render={(props) => <About {...props} />} />
+			<Route exact path="/law-office/Contact" render={(props) => <Contact {...props} />} />
 		</Switch>
 	)
 }

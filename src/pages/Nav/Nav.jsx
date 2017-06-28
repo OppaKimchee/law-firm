@@ -74,9 +74,9 @@ class Nav extends Component {
 						</div>
 						<div id="navbar" className="collapse navbar-collapse">
 							<ul className="nav navbar-nav">
-								<li className="active"><Link to="/">Home</Link></li>
-								<li><Link to="/About">About</Link></li>
-								<li><Link to="/Contact">Contact</Link></li>
+								<li className="active"><Link to="/law-office">Home</Link></li>
+								<li><Link to="/law-office/About">About</Link></li>
+								<li><Link to="/law-office/Contact">Contact</Link></li>
 							</ul>
 						</div>
 					</div>
