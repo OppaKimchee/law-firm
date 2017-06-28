@@ -70,13 +70,13 @@ class Nav extends Component {
 								<span className="icon-bar"></span>
 								<span className="icon-bar"></span>
 							</button>
-							<Link id="brand" className="navbar-brand" to="/">George Chuang & Associates</Link>
+							<Link id="brand" className="navbar-brand" to="/law-firm">George Chuang & Associates</Link>
 						</div>
 						<div id="navbar" className="collapse navbar-collapse">
 							<ul className="nav navbar-nav">
-								<li className="active"><Link to="/">Home</Link></li>
-								<li><Link to="/About">About</Link></li>
-								<li><Link to="/Contact">Contact</Link></li>
+								<li className="active"><Link to="/law-firm">Home</Link></li>
+								<li><Link to="/law-firm/About">About</Link></li>
+								<li><Link to="/law-firm/Contact">Contact</Link></li>
 							</ul>
 						</div>
 					</div>
